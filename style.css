@@ -14,3 +14,7 @@
 .txt-primary {
   color: var(--primary-color);
 }
+
+.gray-scale {
+  filter: grayscale(1);
+}
