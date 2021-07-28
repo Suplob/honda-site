@@ -37,7 +37,51 @@
               This is the best bike in this world. <br />
               No other bike is as best as this one.
             </p>
-            <button class="btn honda-btn text-white fw-bold">Purchase</button>
+            <button
+              class="btn honda-btn text-white fw-bold"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              Purchase
+            </button>
+            <!-- Modal Start -->
+            <div
+              class="modal fade text-dark"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Best Bike Shop
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    This is the best bike shop in this world. You will find the
+                    best of best bikes in this shop.
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn honda-btn text-white"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Modal End -->
           </div>
           <div>
             <img src="img/header-bike.png" class="img-fluid" alt="" />
