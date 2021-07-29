@@ -8,6 +8,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .honda-btn {
   color: white;
   border-radius: 5px;
