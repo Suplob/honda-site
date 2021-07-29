@@ -72,8 +72,18 @@
                     ></button>
                   </div>
                   <div class="modal-body">
-                    This is the best bike shop in this world. You will find the
-                    best of best bikes in this shop.
+                    If you have any query regarding this bike or want to
+                    purchase this bike please enter your email address below we
+                    will contact you asap.
+                    <div class="form-floating mb-3 mt-3">
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="floatingInput"
+                        placeholder="name@example.com"
+                      />
+                      <label for="floatingInput">Email address</label>
+                    </div>
                   </div>
                   <div class="modal-footer">
                     <button
@@ -82,6 +92,13 @@
                       data-bs-dismiss="modal"
                     >
                       Close
+                    </button>
+                    <button
+                      type="button"
+                      class="honda-btn"
+                      data-bs-dismiss="modal"
+                    >
+                      Submit
                     </button>
                   </div>
                 </div>
@@ -450,7 +467,7 @@
         <h1 class="text-center mt-10 mb-3">
           Contact <span class="txt-primary">Us</span>
         </h1>
-        <form class="row g-3 mx-auto width-50">
+        <form class="row g-3 mx-auto width-50" id="contact">
           <div class="col-md-12">
             <label for="inputEmail4" class="form-label">Email</label>
             <input type="email" class="form-control" id="inputEmail4" />
