@@ -10,11 +10,11 @@
 
 .honda-btn {
   color: white;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 0.5rem 1rem;
   background-color: var(--primary-color);
   border: 0;
-  font-weight: 700;
+  font-weight: 500;
   transition: all 300ms ease;
 }
 .honda-btn:hover {
@@ -39,4 +39,18 @@
 
 .card > div {
   margin: 30px;
+}
+
+.rounded-10 {
+  border-radius: 1.5rem;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+@media screen and (max-width: 992px) {
+  .width-50 {
+    width: 90%;
+  }
 }
