@@ -18,3 +18,15 @@
 .gray-scale {
   filter: grayscale(1);
 }
+
+.mt-10 {
+  margin-top: 10rem;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.card > div {
+  margin: 30px;
+}
